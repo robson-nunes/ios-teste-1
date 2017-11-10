@@ -32,6 +32,7 @@ Endpoint para pegar anuncios
 - Peso: "average_weight"
 - Tipo de peso: "weight_type"
 - Valor: "unit_value" (o valor contem um inteiro ja com centavos, dividindo por 100 voce obtem o valor real, exemplo: 120000 = R$ 1.200,00
+- Avatar do vendedor: "seller_avatar" (Se não tiver mostre qualquer imagem padrao)
 - Nome do vendedor: "seller_name"
 - Tipo do vendedor: Deixa sempre "corretor" (sem chave definida na api)
 - Avaliaçao do vendedor: "seller_rating"
@@ -47,6 +48,9 @@ Endpoint para pegar anuncios
 ### Como vamos avaliar:
 O código do aplicativo será clonado de algum repositório público e será executado através do XCode sobre diferentes dispositivos iOS emulados (a partir do iPhone 5);
 Vamos ler o código;
+
+### Assets
+Os assets necessários estão neste repositório na pasta "assets".
 
 ### Dúvidas?
 Envie um e-mail para: gabriel.stein@webgados.com.br
