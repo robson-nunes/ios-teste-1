@@ -14,6 +14,16 @@ Implementar em Swift 3/4 um aplicativo nativo para iOS que consulte uma API e mo
   - Tela responsiva
   - Touch feedback (ao clicar em um anuncio abrir uma nova tela contedo uma label com o "_id" do anuncio selecionado)
 
+### Ganha + pontos se tiver
+
+- Testes unitários no projeto. Ex: XCTests / Specta + Expecta.
+- Testes funcionais. Ex: KIF.
+- Não conter memory leak (testes via instruments).
+- Pouco uso de memória ram (testes via instruments).
+- Uso otimizado de CPU (testes via instruments).
+- Image com download pregressivo em blur (PINRemoteImage).
+- Documentação do código.
+
 ### Tela (Lista de Anuncios)
 
 Deve ser feita uma lista, em que cada elemento tenha a imagem, o titulo, idade, peso, preço e informaçoes do vendedor conforme abaixo:
